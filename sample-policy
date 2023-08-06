@@ -10,7 +10,7 @@
                 "s3:GetObject"
             ],
             "Resource": [
-                "arn:aws:s3:::Bucket-Name/*"
+                "arn:aws:s3:::Buetck-Name/*"
             ]
         }
     ]
@@ -31,7 +31,7 @@
         "s3:PutObject"
       ],
       "Effect": "Allow",
-      "Resource": "arn:aws:s3:::www.reactdemo.io/*",
+      "Resource": "arn:aws:s3:::Bucket-Name/*",
       "Principal": "*"
     }
   ]
